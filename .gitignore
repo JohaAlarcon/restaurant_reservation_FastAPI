@@ -1,0 +1,27 @@
+# Virtual Env
+venv/
+.venv/
+
+# Config Virtual Env files    Archivos de configuración de entornos virtuales
+pipfile
+pipfile.lock
+
+# cache files
+__pycache__/
+*.py[cod]
+
+# log files
+*.log
+
+# db files
+*.sqlite3
+
+# IDE Config directories
+.idea/
+.vscode/
+
+# Especific virtual Env for FastAPI
+env/
+
+#    Pip3 Install dependencies
+*.egg-info/
